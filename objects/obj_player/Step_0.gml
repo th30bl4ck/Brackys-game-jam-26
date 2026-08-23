@@ -14,6 +14,7 @@ if (_hmove != 0 || _vmove != 0) {
     y += lengthdir_y(move_speed, _dir);
 }
 
+// talking to npcs 
 var _npc = instance_nearest(x, y, obj_employee);
 
 if (_npc != noone && point_distance(x, y, _npc.x, _npc.y) <= 64) {
