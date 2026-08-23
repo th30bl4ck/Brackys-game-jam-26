@@ -1,0 +1,4 @@
+dialogue = [
+    "Hello",
+    "Goodbye!"
+];
