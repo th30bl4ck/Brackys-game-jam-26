@@ -7,8 +7,18 @@ if (instance_exists(obj_visitor)) {
     }
 }
 
-var table_width = room_width - panel_left_width;
-draw_sprite_stretched(spr_table, 0, panel_left_width, 0, table_width, room_height);
+var table_area_width = room_width - panel_left_width;
+var spr_w = sprite_get_width(spr_table);
+var spr_h = sprite_get_height(spr_table);
+
+var scale_x = table_area_width / spr_w;
+var scale_y = room_height / spr_h;
+
+var uniform_scale = min(scale_x, scale_y);
+
+draw_sprite_ext(spr_table, 0, panel_left_width, 0, uniform_scale, uniform_scale, 0, c_white, 1);
+
+draw_sprite_ext(spr_table, 0, panel_left_width, 0, uniform_scale, uniform_scale, 0, c_white, 1);
 
 draw_set_color(make_color_rgb(40, 40, 40));
 draw_rectangle(0, portrait_height, panel_left_width, room_height, false);

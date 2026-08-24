@@ -1,4 +1,7 @@
 if (instance_exists(obj_visitor) && obj_visitor.arrived && !obj_visitor.leaving) {
+    
+    image_speed = 1; 
+
     obj_visitor.leaving = true;
     obj_visitor.dialogue = "";
     
