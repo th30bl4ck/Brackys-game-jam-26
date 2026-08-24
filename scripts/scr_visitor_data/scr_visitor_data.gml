@@ -15,7 +15,7 @@ global.visitor_database = [
         sprite: spr_player, 
         dialogue: "Put this on the front page!",
         article_type: "sicence",
-        article_text: "SPORTS UPDATE."
+        article_text: "UPDATE."
     }
     
 ];
