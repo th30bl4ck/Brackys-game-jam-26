@@ -1,4 +1,0 @@
-dialogue = [
-    "Hello",
-    "Goodbye!"
-];

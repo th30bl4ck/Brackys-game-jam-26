@@ -1,0 +1,9 @@
+image_xscale = 8;
+image_yscale = 8;
+x = -200;
+target_x = obj_ui_manager.panel_left_width / 2;
+y = obj_ui_manager.portrait_height / 2;
+walk_speed = 4;
+arrived = false;
+dialogue = "";
+leaving = false;
