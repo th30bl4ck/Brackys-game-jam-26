@@ -55,6 +55,18 @@ global.visitor_database = [
         dialogue_no: "Are you blind? This is real journalism!"
     },
     
+    {
+        name: "Hippy",
+        sprite: spr_hippy, 
+        dialogue: "Put this on the front page!",
+        article_type: "non-sence",
+        article_text: "UPDATE.",
+        has_certificate: true,
+        is_stamped: false,
+        dialogue_yes: "Thank you.",
+        dialogue_no: "Are you blind? This is real journalism!"
+    },
+    
 ];
 
 
