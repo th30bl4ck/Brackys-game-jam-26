@@ -1,17 +1,7 @@
-
 persistent = true;
 music_muted = false;
-music_track = audio_play_sound(snd_music, 1, true);
-audio_sound_gain(music_track, 1, 0);
 
-if (instance_exists(obj_music)) {
-    instance_destroy();
-    exit;
-}
+global.music_volume = 1; 
+global.music_track = audio_play_sound(snd_music, 1, true);
 
-persistent = true;
-
-music_muted = false;
-
-music_track = audio_play_sound(snd_music, 1, true);
-audio_sound_gain(music_track, 1, 0);
+audio_sound_gain(global.music_track, global.music_volume, 0);

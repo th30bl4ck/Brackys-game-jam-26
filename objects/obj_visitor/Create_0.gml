@@ -20,8 +20,10 @@ load_next_visitor = function() {
     dialogue = my_data.dialogue;
     article_text = my_data.article_text;
     
-    global.current_visitor_index++;
+    has_certificate = my_data.has_certificate;
+    is_stamped = my_data.is_stamped;
     
+    global.current_visitor_index++;
     if (global.current_visitor_index >= array_length(global.visitor_database)) {
         global.current_visitor_index = 0;
     }
