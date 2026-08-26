@@ -81,6 +81,8 @@
     {"id":{"name":"spr_table","path":"sprites/spr_table/spr_table.yy",},},
     {"id":{"name":"spr_tick","path":"sprites/spr_tick/spr_tick.yy",},},
     {"id":{"name":"spr_walkman","path":"sprites/spr_walkman/spr_walkman.yy",},},
+    {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},},
+    {"id":{"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
