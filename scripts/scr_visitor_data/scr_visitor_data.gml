@@ -21,11 +21,31 @@ global.visitor_database = [
         name: "Crack Head",
         sprite: spr_crack_head, 
         dialogue: "Put this on the front page!",
-        article_type: "sicence",
+        article_type: "non-sence",
         article_text: "UPDATE.",
         has_certificate: true,
         is_stamped: false
-    }
+    },
+    
+    {
+        name: "Dr Boss",
+        sprite: spr_dr_boss, 
+        dialogue: "Put this on the front page!",
+        article_type: "sicence",
+        article_text: "UPDATE.",
+        has_certificate: true,
+        is_stamped: true
+    },
+    
+    {
+        name: "Hubert Billingsworth",
+        sprite: spr_hubert_billingsworth, 
+        dialogue: "Put this on the front page!",
+        article_type: "sicence",
+        article_text: "UPDATE.",
+        has_certificate: false,
+        is_stamped: false
+    },
     
 ];
 
