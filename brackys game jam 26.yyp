@@ -68,7 +68,7 @@
     {"id":{"name":"Snd_no","path":"sounds/Snd_no/Snd_no.yy",},},
     {"id":{"name":"snd_yes","path":"sounds/snd_yes/snd_yes.yy",},},
     {"id":{"name":"spr_book_2","path":"sprites/spr_book_2/spr_book_2.yy",},},
-    {"id":{"name":"Spr_book","path":"sprites/Spr_book/Spr_book.yy",},},
+    {"id":{"name":"spr_book","path":"sprites/spr_book/spr_book.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"spr_certificate_no_stamp","path":"sprites/spr_certificate_no_stamp/spr_certificate_no_stamp.yy",},},
     {"id":{"name":"spr_certificate_stamp","path":"sprites/spr_certificate_stamp/spr_certificate_stamp.yy",},},
