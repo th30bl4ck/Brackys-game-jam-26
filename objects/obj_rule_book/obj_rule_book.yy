@@ -1,15 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pen_2",
+  "%Name":"obj_rule_book",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pen_2",
+  "name":"obj_rule_book",
   "overriddenProperties":[],
   "parent":{
-    "name":"desk stu",
-    "path":"folders/Objects/desk stu.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_pen_2",
-    "path":"sprites/spr_pen_2/spr_pen_2.yy",
+    "name":"spr_rule_book",
+    "path":"sprites/spr_rule_book/spr_rule_book.yy",
   },
   "spriteMaskId":null,
   "visible":true,
