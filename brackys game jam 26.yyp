@@ -86,6 +86,7 @@
     {"id":{"name":"spr_table","path":"sprites/spr_table/spr_table.yy",},},
     {"id":{"name":"spr_tick","path":"sprites/spr_tick/spr_tick.yy",},},
     {"id":{"name":"spr_walkman","path":"sprites/spr_walkman/spr_walkman.yy",},},
+    {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},},
   ],
   "resourceType":"GMProject",
