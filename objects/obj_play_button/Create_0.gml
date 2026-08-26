@@ -1,3 +1,5 @@
+gpu_set_texfilter(false);
+
 event_inherited();
 
 button_text = "PLAY";
