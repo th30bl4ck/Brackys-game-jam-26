@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_coffee",
   "bboxMode":0,
-  "bbox_bottom":48,
+  "bbox_bottom":49,
   "bbox_left":23,
   "bbox_right":46,
   "bbox_top":4,
