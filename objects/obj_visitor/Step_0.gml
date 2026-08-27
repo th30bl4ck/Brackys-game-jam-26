@@ -26,14 +26,10 @@ if (leaving) {
     var paper = instance_create_depth(table_center_x, table_center_y, -50, obj_paper);
     paper.article_text = article_text;
     
-    if (has_certificate) {
+if (has_certificate) {
     var cert = instance_create_depth(table_center_x + 50, table_center_y + 50, -55, obj_certificate);
     
-    if (is_stamped) {
-        cert.sprite_index = spr_certificate_stamp; 
-    } else {
-        cert.sprite_index = spr_certificate_no_stamp;
-    }
+    cert.sprite_index = cert_sprite; 
+} 
 }
-    }
 }
