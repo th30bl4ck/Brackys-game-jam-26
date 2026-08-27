@@ -50,6 +50,7 @@
   "name":"brackys game jam 26",
   "resources":[
     {"id":{"name":"menu_font","path":"fonts/menu_font/menu_font.yy",},},
+    {"id":{"name":"obj_background_wall","path":"objects/obj_background_wall/obj_background_wall.yy",},},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
     {"id":{"name":"obj_certificate","path":"objects/obj_certificate/obj_certificate.yy",},},
     {"id":{"name":"obj_coffee","path":"objects/obj_coffee/obj_coffee.yy",},},
