@@ -4,6 +4,7 @@ if (mouse_check_button_pressed(mb_left)) {
         global.visitors_seen = 0;
         global.daily_earnings = 0;
         global.daily_penalties = 0;
+        global.daily_bribes = 0;
         
         instance_activate_object(obj_visitor);
         obj_visitor.load_next_visitor();

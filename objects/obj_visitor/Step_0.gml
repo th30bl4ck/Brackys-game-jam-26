@@ -22,6 +22,11 @@ if (leaving) {
 
     var table_center_x = obj_ui_manager.panel_left_width + ((room_width - obj_ui_manager.panel_left_width) / 2);
     var table_center_y = room_height / 2;
+        
+    if (has_bribe) {
+    var env = instance_create_depth(table_center_x - 70, table_center_y + 20, -52, obj_envelope);
+    env.bribe_amount = bribe_amount;
+}    
 
     var paper = instance_create_depth(table_center_x, table_center_y, -50, obj_paper);
     paper.article_text = article_text;

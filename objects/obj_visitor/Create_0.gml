@@ -27,6 +27,14 @@ load_next_visitor = function() {
     dialogue_yes = my_data.dialogue_yes;
     dialogue_no = my_data.dialogue_no;
     
+    has_bribe = my_data.has_bribe;
+    if (has_bribe) {
+        bribe_amount = my_data.bribe_amount;
+    } 
+    else {
+    bribe_amount = 0;
+    }
+    
     global.current_visitor_index++;
     if (global.current_visitor_index >= array_length(global.visitor_database)) {
         global.current_visitor_index = 0;
