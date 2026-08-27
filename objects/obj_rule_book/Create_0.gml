@@ -1,5 +1,6 @@
 depth = -80; 
 is_open = false;
+current_page = 1;
 
 rules = [
     "1. All articles must have an official certificate.",

@@ -1,6 +1,3 @@
-draw_set_color(c_dkgray);
-draw_rectangle(0, 0, panel_left_width, portrait_height, false);
-
 if (instance_exists(obj_visitor)) {
     with (obj_visitor) {
         draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
@@ -13,10 +10,7 @@ var spr_h = sprite_get_height(spr_table);
 
 var scale_x = table_area_width / spr_w;
 var scale_y = room_height / spr_h;
-
 var uniform_scale = min(scale_x, scale_y);
-
-draw_sprite_ext(spr_table, 0, panel_left_width, 0, uniform_scale, uniform_scale, 0, c_white, 1);
 
 draw_sprite_ext(spr_table, 0, panel_left_width, 0, uniform_scale, uniform_scale, 0, c_white, 1);
 
