@@ -18,4 +18,5 @@ if (instance_exists(obj_visitor) && obj_visitor.arrived && !obj_visitor.leaving)
     
     if (instance_exists(obj_paper)) instance_destroy(obj_paper);
     if (instance_exists(obj_certificate)) instance_destroy(obj_certificate);
+    if (instance_exists(obj_envelope)) instance_destroy(obj_envelope);
 }

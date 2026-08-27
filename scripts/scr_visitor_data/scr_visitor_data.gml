@@ -2,6 +2,7 @@ global.money = 0;
 global.visitors_seen = 0;
 global.daily_earnings = 0;
 global.daily_penalties = 0;
+global.daily_bribes = 0;
 
 global.current_visitor_index = 0;
     
@@ -18,7 +19,9 @@ global.visitor_database = [
         cert_sprite: spr_certificate_stamp_blue_T, 
         is_forged: false,
         dialogue_yes: "Thank you, my freind christs blessings be upon you child.",
-        dialogue_no: "you sinful, blasphomous child how dare you renonce the only true god"
+        dialogue_no: "you sinful, blasphomous child how dare you renonce the only true god",
+        has_bribe: false,
+        bribe_amount: 0
     },
     
     {
@@ -32,7 +35,9 @@ global.visitor_database = [
         cert_sprite: spr_certificate_stamp_blue_fake,
         is_forged: true,
         dialogue_yes: "duuuudeeee, this is sick nasty style bro, my pops can sleep easy man .",
-        dialogue_no: "dude no stress I-i-i guess i'll find some s-s-somehow"
+        dialogue_no: "dude no stress I-i-i guess i'll find some s-s-somehow",
+        has_bribe: false,
+        bribe_amount: 0
     },
     
     {
@@ -46,7 +51,9 @@ global.visitor_database = [
         cert_sprite: spr_certificate_stamp_red_M,
         is_forged: true,
         dialogue_yes: "Thank you.",
-        dialogue_no: "Are you blind? This is real journalism!"
+        dialogue_no: "Are you blind? This is real journalism!",
+        has_bribe: false,
+        bribe_amount: 0   
     },
     
     {
@@ -60,7 +67,9 @@ global.visitor_database = [
         cert_sprite: -1, 
         is_forged: false,
         dialogue_yes: "Thank you.",
-        dialogue_no: "Are you blind? This is real journalism!"
+        dialogue_no: "Are you blind? This is real journalism!",
+        has_bribe: true,
+        bribe_amount: 15 
     },
     
     {
@@ -74,7 +83,9 @@ global.visitor_database = [
         cert_sprite: spr_certificate_stamp_gray_J,
         is_forged: false,
         dialogue_yes: "Thank you.",
-        dialogue_no: "Are you blind? This is real journalism!"
+        dialogue_no: "Are you blind? This is real journalism!",
+        has_bribe: false,
+        bribe_amount: 0 
     },
     
     {
@@ -88,7 +99,9 @@ global.visitor_database = [
         cert_sprite: spr_certificate_no_stamp_M,
         is_forged: false,
         dialogue_yes: "Thank you.",
-        dialogue_no: "Are you blind? This is real journalism!"
+        dialogue_no: "Are you blind? This is real journalism!",
+        has_bribe: false,
+        bribe_amount: 0 
     },
     
     {
@@ -102,7 +115,9 @@ global.visitor_database = [
         cert_sprite: spr_certificate_stamp_green_B,
         is_forged: false,
         dialogue_yes: "Thank you.",
-        dialogue_no: "Are you blind? This is real journalism!"
+        dialogue_no: "Are you blind? This is real journalism!",
+        has_bribe: false,
+        bribe_amount: 0 
     },
     
 ];
