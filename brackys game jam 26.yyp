@@ -84,6 +84,7 @@
     {"id":{"name":"spr_pen","path":"sprites/spr_pen/spr_pen.yy",},},
     {"id":{"name":"spr_rule_book","path":"sprites/spr_rule_book/spr_rule_book.yy",},},
     {"id":{"name":"spr_table","path":"sprites/spr_table/spr_table.yy",},},
+    {"id":{"name":"spr_text_box","path":"sprites/spr_text_box/spr_text_box.yy",},},
     {"id":{"name":"spr_tick","path":"sprites/spr_tick/spr_tick.yy",},},
     {"id":{"name":"spr_walkman","path":"sprites/spr_walkman/spr_walkman.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
