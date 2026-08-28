@@ -19,9 +19,11 @@ load_next_visitor = function() {
     visitor_name = my_data.name;
     dialogue = my_data.dialogue;
     article_text = my_data.article_text;
-    
     has_certificate = my_data.has_certificate;
     is_stamped = my_data.is_stamped;
+    
+    dialogue_yes = my_data.dialogue_yes;
+    dialogue_no = my_data.dialogue_no;
     
     global.current_visitor_index++;
     if (global.current_visitor_index >= array_length(global.visitor_database)) {
