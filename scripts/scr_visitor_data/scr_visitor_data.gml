@@ -13,7 +13,7 @@ global.visitor_database = [
         sprite: spr_paster, 
         dialogue: "This is a superb opportunity for you my freind, the church of christ is in need of more loyal followers to the good cause, so if you accept this very hefty offer from the donation basket, in exchange, I would like you to share the good word of the lord with the non belivers to make them join the cause.",
         article_type: "religeon",
-        article_text: "BREAKING NEWS.",
+        article_text: ".",
         has_certificate: true,
         is_stamped: true,
         cert_sprite: spr_certificate_stamp_blue_T, 
