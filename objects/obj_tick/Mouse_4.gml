@@ -1,7 +1,7 @@
 if (instance_exists(obj_visitor) && obj_visitor.arrived && !obj_visitor.leaving) {
     image_speed = 1; 
     
-    var is_valid = (obj_visitor.has_certificate && obj_visitor.is_stamped);
+    var is_valid = (obj_visitor.has_certificate && obj_visitor.is_stamped && !obj_visitor.is_forged);
     if (is_valid) {
         global.daily_earnings += 5; 
     } else {
@@ -18,4 +18,5 @@ if (instance_exists(obj_visitor) && obj_visitor.arrived && !obj_visitor.leaving)
     
     if (instance_exists(obj_paper)) instance_destroy(obj_paper);
     if (instance_exists(obj_certificate)) instance_destroy(obj_certificate);
+    if (instance_exists(obj_envelope)) instance_destroy(obj_envelope);
 }

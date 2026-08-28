@@ -1,4 +1,4 @@
-depth = -100;
+depth = -2;
 
 image_index = 0;
 image_speed = 0;

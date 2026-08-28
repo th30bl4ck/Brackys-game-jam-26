@@ -1,5 +1,5 @@
-image_xscale = 4;
-image_yscale = 4;
+image_xscale = 6;
+image_yscale = 5;
 depth = -50;
 dragging = false;
 drag_offset_x = 0;
