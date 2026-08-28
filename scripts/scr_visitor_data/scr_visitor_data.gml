@@ -120,6 +120,54 @@ global.visitor_database = [
         bribe_amount: 0 
     },
     
+    {
+        name: "Punk",
+        sprite: spr_punk, 
+        dialogue: "Boy oh boy do I have a pitch for you. your aware that there releasing a prisoner today, yes the murderer, I want you to write about legalising the death penalty then all we have to do is get him before the monster is release",
+        article_type: "",
+        article_text: "UPDATE.",
+        has_certificate: true,
+        is_stamped: true,
+        cert_sprite: spr_certificate_stamp_green_B,
+        is_forged: false,
+        dialogue_yes: "Thank you this helps the world a lot .",
+        dialogue_no: "thats fine, I get it this is a moral conundrum.",
+        has_bribe: false,
+        bribe_amount: 0 
+    },
+    
+    {
+        name: "Puma",
+        sprite: spr_puma, 
+        dialogue: "Boy oh boy do I have a pitch for you. your aware that there releasing a prisoner today, yes the murderer, I want you to write about legalising the death penalty then all we have to do is get him before the monster is release",
+        article_type: "",
+        article_text: "UPDATE.",
+        has_certificate: true,
+        is_stamped: true,
+        cert_sprite: spr_certificate_stamp_green_B,
+        is_forged: false,
+        dialogue_yes: "Thank you this helps the world a lot .",
+        dialogue_no: "thats fine, I get it this is a moral conundrum.",
+        has_bribe: false,
+        bribe_amount: 0 
+    },
+    
+    {
+        name: "Alien",
+        sprite: spr_alien, 
+        dialogue: "Boy oh boy do I have a pitch for you. your aware that there releasing a prisoner today, yes the murderer, I want you to write about legalising the death penalty then all we have to do is get him before the monster is release",
+        article_type: "",
+        article_text: "UPDATE.",
+        has_certificate: true,
+        is_stamped: true,
+        cert_sprite: spr_certificate_stamp_green_B,
+        is_forged: false,
+        dialogue_yes: "Thank you this helps the world a lot .",
+        dialogue_no: "thats fine, I get it this is a moral conundrum.",
+        has_bribe: false,
+        bribe_amount: 0 
+    },
+    
 ];
 
 
