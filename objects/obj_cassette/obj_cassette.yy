@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_quit_button",
+  "%Name":"obj_cassette",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_quit_button",
+  "name":"obj_cassette",
   "overriddenProperties":[],
   "parent":{
-    "name":"main_menu_objects",
-    "path":"folders/Objects/main_menu_objects.yy",
+    "name":"desk stu",
+    "path":"folders/Objects/desk stu.yy",
   },
-  "parentObjectId":{
-    "name":"obj_button_parent",
-    "path":"objects/obj_button_parent/obj_button_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_quit",
-    "path":"sprites/spr_quit/spr_quit.yy",
+    "name":"spr_cassette",
+    "path":"sprites/spr_cassette/spr_cassette.yy",
   },
   "spriteMaskId":null,
   "visible":true,
