@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_walkman_insert_tape",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_walkman_insert_tape",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
