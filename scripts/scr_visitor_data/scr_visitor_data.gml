@@ -244,8 +244,8 @@ global.visitor_database = [
         is_forged: false,
         dialogue_yes: "Yipppe all the gold for me .",
         dialogue_no: "I curse ye evil man.",
-        has_bribe: false,
-        bribe_amount: 10000
+        has_bribe: true,
+        bribe_amount: 0
     },
     
     {
