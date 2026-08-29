@@ -70,7 +70,6 @@
     {"id":{"name":"obj_quit_button","path":"objects/obj_quit_button/obj_quit_button.yy",},},
     {"id":{"name":"obj_rule_book","path":"objects/obj_rule_book/obj_rule_book.yy",},},
     {"id":{"name":"obj_table","path":"objects/obj_table/obj_table.yy",},},
-    {"id":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
     {"id":{"name":"obj_tick","path":"objects/obj_tick/obj_tick.yy",},},
     {"id":{"name":"obj_ui_manager","path":"objects/obj_ui_manager/obj_ui_manager.yy",},},
