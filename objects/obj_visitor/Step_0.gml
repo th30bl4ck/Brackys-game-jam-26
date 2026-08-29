@@ -16,9 +16,13 @@ if (leaving) {
     if (x < target_x) {
         x += walk_speed;
     } 
-    else if (!arrived) {
+else if (!arrived) {
         x = target_x;
         arrived = true;
+        
+        if (visitor_name == "Dr Boss") {
+            audio_play_sound(snd_dr_ross, 1, false);
+        }
 
         var table_center_x = obj_ui_manager.panel_left_width + ((room_width - obj_ui_manager.panel_left_width) / 2);
         var table_center_y = room_height / 2;
