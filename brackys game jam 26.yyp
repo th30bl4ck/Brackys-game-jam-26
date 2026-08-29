@@ -157,7 +157,7 @@
     {"id":{"name":"spr_quit","path":"sprites/spr_quit/spr_quit.yy",},},
     {"id":{"name":"spr_rule_book","path":"sprites/spr_rule_book/spr_rule_book.yy",},},
     {"id":{"name":"spr_table","path":"sprites/spr_table/spr_table.yy",},},
-    {"id":{"name":"spr_text","path":"sprites/spr_text/spr_text.yy",},},
+    {"id":{"name":"Spr_text","path":"sprites/Spr_text/Spr_text.yy",},},
     {"id":{"name":"spr_text_box","path":"sprites/spr_text_box/spr_text_box.yy",},},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},},
     {"id":{"name":"spr_Theo","path":"sprites/spr_Theo/spr_Theo.yy",},},
