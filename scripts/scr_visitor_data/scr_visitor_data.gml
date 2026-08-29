@@ -9,6 +9,22 @@ global.current_visitor_index = 0;
 global.visitor_database = [
     
     {
+        name: "Boss",
+        sprite: spr_boss, 
+        dialogue: "Hello I would like to implemnt a neighbourhood watch to keep this town safe from hooilgains and ruffians.",
+        article_type: "Vandals terrorise town nobel man sets up neighbourhood",
+        article_text: ".",
+        has_certificate: true,
+        is_stamped: true,
+        cert_sprite: spr_certificate_stamp_green_B,
+        is_forged: false,
+        dialogue_yes: "Alrighty then.",
+        dialogue_no: "Aw man.",
+        has_bribe: false,
+        bribe_amount: 0 
+    },
+    
+    {
         name: "Paster Bob",
         sprite: spr_paster, 
         dialogue: "This is a superb opportunity for you my freind, the church of christ is in need of more loyal followers to the good cause, so if you accept this very hefty offer from the donation basket, in exchange, I would like you to share the good word of the lord with the non belivers to make them join the cause.",
@@ -187,22 +203,6 @@ global.visitor_database = [
     {
         name: "Nude Guy",
         sprite: spr_nude_guy, 
-        dialogue: "Hello I would like to implemnt a neighbourhood watch to keep this town safe from hooilgains and ruffians.",
-        article_type: "Vandals terrorise town nobel man sets up neighbourhood",
-        article_text: ".",
-        has_certificate: true,
-        is_stamped: true,
-        cert_sprite: spr_certificate_stamp_green_B,
-        is_forged: false,
-        dialogue_yes: "Alrighty then.",
-        dialogue_no: "Aw man.",
-        has_bribe: false,
-        bribe_amount: 0 
-    },
-    
-    {
-        name: "Boss",
-        sprite: spr_boss, 
         dialogue: "Hello I would like to implemnt a neighbourhood watch to keep this town safe from hooilgains and ruffians.",
         article_type: "Vandals terrorise town nobel man sets up neighbourhood",
         article_text: ".",
