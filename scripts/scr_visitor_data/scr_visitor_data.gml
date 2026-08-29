@@ -89,7 +89,8 @@ global.visitor_database = [
         dialogue_yes: "Nice my freind, i see you have a postive canfield tilt.",
         dialogue_no: "Sure bud miss out on the bigest of all bucks!, your ugly to by the way, I mog the hell out of you.",
         has_bribe: false,
-        bribe_amount:  0
+        bribe_amount:  0,
+        is_tutorial: false
     },
     
     {
@@ -105,7 +106,8 @@ global.visitor_database = [
         dialogue_yes: "Wait what, really I never actually thought this would happen, wow man this has been a life long dream, thank you freind, here take this mixtape, its the first song me and my band have made its a little weird but please stick it on..",
         dialogue_no: "What the hell jackass, you think you're better than me, man hey screw you man.",
         has_bribe: false,
-        bribe_amount: 0 
+        bribe_amount: 0,
+        is_tutorial: false        
     },
     
     {
@@ -121,7 +123,8 @@ global.visitor_database = [
         dialogue_yes: "I appreicate it.",
         dialogue_no: "Fool, you will be the reason this country falls",
         has_bribe: true,
-        bribe_amount: 10
+        bribe_amount: 10,
+        is_tutorial: false        
     },
     
     {
@@ -171,7 +174,8 @@ global.visitor_database = [
         dialogue_yes: "Thank you this helps the world a lot more than you know .",
         dialogue_no: "Thats a shame you're leaving all these animals to become extict there blood is on your hands.",
         has_bribe: false,
-        bribe_amount: 0 
+        bribe_amount: 0,
+        is_tutorial: false        
     },
         {
         name: "Kid",
