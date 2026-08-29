@@ -264,7 +264,7 @@ global.visitor_database = [
         bribe_amount: 0 
     },
     
-    //Hello, this is the hospital we have an update your wifes condition is getting worse we will need another large deposit of 20 a day we will collect the payment
+    //Hello, this is the hospital we have an update your wifes condition is getting worse we will need another large deposit of 20 a day we will collect the payment on the third day
 
 ];
 
