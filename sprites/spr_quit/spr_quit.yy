@@ -23,7 +23,7 @@
   ],
   "name":"spr_quit",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"menu_sprites",
     "path":"folders/Sprites/menu_sprites.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":16,
-    "yorigin":14,
+    "yorigin":16,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
