@@ -11,7 +11,7 @@ global.visitor_database = [
     {
         name: "Boss",
         sprite: spr_boss, 
-        dialogue: "hey you must be the new hire right, yeah must be I don't recognise your face. well you job is simple, you will have people hoping to get their storys pubilshed, first they .",
+        dialogue: "hey you must be the new hire right, yeah must be I don't recognise your face. well you job is simple, you will have people hoping to get their storys pubilshed, first they'll give there sob story, ignore it your only goal is gain. Remember your wife in the hospital, speaking of she sent a letter, the rule book should tell you the rest. be seeing you in four days to cheack you progress.",
         article_type: "",
         article_text: ".",
         has_certificate: true,
@@ -264,6 +264,8 @@ global.visitor_database = [
         bribe_amount: 0 
     },
     
+    //Hello, this is the hospital we have an update your wifes condition is getting worse we will need another large deposit of 20 a day we will collect the payment
+
 ];
 
 
