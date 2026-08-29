@@ -153,6 +153,7 @@
     {"id":{"name":"spr_walkman","path":"sprites/spr_walkman/spr_walkman.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"Sprite69","path":"sprites/Sprite69/Sprite69.yy",},},
+    {"id":{"name":"Sprite70","path":"sprites/Sprite70/Sprite70.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
