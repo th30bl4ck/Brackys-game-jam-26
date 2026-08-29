@@ -217,7 +217,7 @@ global.visitor_database = [
     },
     
     {
-        name: "kid",
+        name: "Kid",
         sprite: spr_kid, 
         dialogue: "Hello I would like to implemnt a neighbourhood watch to keep this town safe from hooilgains and ruffians.",
         article_type: "Vandals terrorise town nobel man sets up neighbourhood",
@@ -233,8 +233,24 @@ global.visitor_database = [
     },
     
     {
-        name: "lepracon",
+        name: "Lepracon",
         sprite: spr_lepracon, 
+        dialogue: "Hello I would like to implemnt a neighbourhood watch to keep this town safe from hooilgains and ruffians.",
+        article_type: "Vandals terrorise town nobel man sets up neighbourhood",
+        article_text: ".",
+        has_certificate: true,
+        is_stamped: true,
+        cert_sprite: spr_certificate_stamp_green_B,
+        is_forged: false,
+        dialogue_yes: "Alrighty then.",
+        dialogue_no: "Aw man.",
+        has_bribe: false,
+        bribe_amount: 0 
+    },
+    
+    {
+        name: "Monk",
+        sprite: spr_monk, 
         dialogue: "Hello I would like to implemnt a neighbourhood watch to keep this town safe from hooilgains and ruffians.",
         article_type: "Vandals terrorise town nobel man sets up neighbourhood",
         article_text: ".",
