@@ -11,17 +11,18 @@ global.visitor_database = [
     {
         name: "Boss",
         sprite: spr_boss, 
-        dialogue: "hey you must be the new hire right, yeah must be I don't recognise your face. well you job is simple, you will have people hoping to get their storys pubilshed, first they'll give there sob story, ignore it your only goal is gain. Remember your wife in the hospital, speaking of she sent a letter, the rule book should tell you the rest. be seeing you in four days to cheack you progress.",
+        dialogue: "Hey, you must be the new hire. Your job is simple: people will want their stories published. Ignore their sob stories; your only goal is profit, press the tick on your desk to accept them and the cross to deny them. Remember your wife in the hospital speaking of, she sent a letter. The rule book covers the rest. I'll be back in four days.",
         article_type: "",
-        article_text: ".",
-        has_certificate: true,
-        is_stamped: true,
+        article_text: "",
+        has_certificate: false,
+        is_stamped: false,
         cert_sprite: -1,
         is_forged: false,
-        dialogue_yes: ".",
-        dialogue_no: ".",
+        dialogue_yes: "Good. Now get to work.",
+        dialogue_no: "Don't hit that deny button at me. Just get to work.",
         has_bribe: false,
-        bribe_amount: 0 
+        bribe_amount: 0,
+        is_tutorial: true
     },
     
     {
@@ -37,7 +38,8 @@ global.visitor_database = [
         dialogue_yes: "Thank you, my freind christs blessings be upon you child.",
         dialogue_no: "You sinful, blasphomous child how dare you renonce the only true god",
         has_bribe: true,
-        bribe_amount: 10
+        bribe_amount: 10,
+        is_tutorial: false
     },
     
     {
@@ -53,7 +55,8 @@ global.visitor_database = [
         dialogue_yes: "Duuuudeeee, this is sick nasty style bro, my pops can sleep easy man .",
         dialogue_no: "Dude no stress I-i-i guess i'll find some s-s-somehow",
         has_bribe: false,
-        bribe_amount: 0
+        bribe_amount: 0,
+        is_tutorial: false
     },
     
     {
@@ -69,7 +72,8 @@ global.visitor_database = [
         dialogue_yes: "The sciance world thanks you, you will be in the history books freind.",
         dialogue_no: "This is a terrible shame a suppose you don't grasp the importance of this issue.",
         has_bribe: false,
-        bribe_amount: 0   
+        bribe_amount: 0,
+        is_tutorial: false
     },
     
     {
@@ -85,7 +89,8 @@ global.visitor_database = [
         dialogue_yes: "Nice my freind, i see you have a postive canfield tilt.",
         dialogue_no: "Sure bud miss out on the bigest of all bucks!, your ugly to by the way, I mog the hell out of you.",
         has_bribe: false,
-        bribe_amount:  0
+        bribe_amount:  0,
+        is_tutorial: false
     },
     
     {
@@ -101,7 +106,8 @@ global.visitor_database = [
         dialogue_yes: "Wait what, really I never actually thought this would happen, wow man this has been a life long dream, thank you freind, here take this mixtape, its the first song me and my band have made its a little weird but please stick it on..",
         dialogue_no: "What the hell jackass, you think you're better than me, man hey screw you man.",
         has_bribe: false,
-        bribe_amount: 0 
+        bribe_amount: 0,
+        is_tutorial: false        
     },
     
     {
@@ -117,7 +123,8 @@ global.visitor_database = [
         dialogue_yes: "I appreicate it.",
         dialogue_no: "Fool, you will be the reason this country falls",
         has_bribe: true,
-        bribe_amount: 10
+        bribe_amount: 10,
+        is_tutorial: false        
     },
     
     {
@@ -133,7 +140,8 @@ global.visitor_database = [
         dialogue_yes: "Thank you this helps the world a lot .",
         dialogue_no: "thats fine, I get it this is a moral conundrum.",
         has_bribe: false,
-        bribe_amount: 0 
+        bribe_amount: 0,
+        is_tutorial: false
     },
     
     {
@@ -149,7 +157,8 @@ global.visitor_database = [
         dialogue_yes: "Yo sick, lets expose this Nazi fuckwad.",
         dialogue_no: "Fucks wrong with you man I thought you cared about the cause.",
         has_bribe: false,
-        bribe_amount: 0 
+        bribe_amount: 0,
+        is_tutorial: false
     },
     
     {
@@ -165,7 +174,8 @@ global.visitor_database = [
         dialogue_yes: "Thank you this helps the world a lot more than you know .",
         dialogue_no: "Thats a shame you're leaving all these animals to become extict there blood is on your hands.",
         has_bribe: false,
-        bribe_amount: 0 
+        bribe_amount: 0,
+        is_tutorial: false        
     },
         {
         name: "Kid",
@@ -180,7 +190,8 @@ global.visitor_database = [
         dialogue_yes: "Really you mean it, even if I can't meet an alien I think just looking at space will be a nice oppertunity. thank you.",
         dialogue_no: "Oh okay. Maybe I will never meet an alien.",
         has_bribe: true,
-        bribe_amount: 1
+        bribe_amount: 1,
+        is_tutorial: false
     },
     
     {
@@ -196,7 +207,8 @@ global.visitor_database = [
         dialogue_yes: "Yeah lets sue these bastards .",
         dialogue_no: "Man no one ever takes me seriously, is it the tattoo isn't it.",
         has_bribe: false,
-        bribe_amount: 0 
+        bribe_amount: 0,
+        is_tutorial: false
     },
     
     {
@@ -212,7 +224,8 @@ global.visitor_database = [
         dialogue_yes: "Alrighty then.",
         dialogue_no: "Aw man.",
         has_bribe: false,
-        bribe_amount: 0 
+        bribe_amount: 0,
+        is_tutorial: false
     },
    
     {
@@ -228,7 +241,8 @@ global.visitor_database = [
         dialogue_yes: "Alright I new you would support the cause you've just got that nudist support look in your eye..",
         dialogue_no: "Dagnabit.",
         has_bribe: false,
-        bribe_amount: 0 
+        bribe_amount: 0,
+        is_tutorial: false
     },
     
     
@@ -245,7 +259,8 @@ global.visitor_database = [
         dialogue_yes: "Yipppe all the gold for me .",
         dialogue_no: "I curse ye evil man.",
         has_bribe: true,
-        bribe_amount: 0
+        bribe_amount: 0,
+        is_tutorial: false
     },
     
     {
@@ -261,10 +276,9 @@ global.visitor_database = [
         dialogue_yes: "Thank you my freind.",
         dialogue_no: "No issue child I will find work elsewhere.",
         has_bribe: false,
-        bribe_amount: 0 
+        bribe_amount: 0,
+        is_tutorial: false
     },
-    
-    //Hello, this is the hospital we have an update your wifes condition is getting worse we will need another large deposit of 20 a day we will collect the payment on the third day.
 
 ];
 

@@ -27,8 +27,9 @@ if (is_open) {
         var text_start_y = book_y - (18 * book_scale);
         var max_text_width = (20 * book_scale); 
         
+        // This loop now cleanly spaces your 6 rules using 65 pixels of vertical gap
         for (var i = 0; i < array_length(rules); i++) {
-            draw_text_ext(text_start_x, text_start_y + (i * 45), rules[i], 25, max_text_width);
+            draw_text_ext(text_start_x, text_start_y + (i * 65), rules[i], 25, max_text_width);
         }
         
         draw_set_halign(fa_right);
