@@ -200,6 +200,54 @@ global.visitor_database = [
         bribe_amount: 0 
     },
     
+    {
+        name: "Boss",
+        sprite: spr_boss, 
+        dialogue: "Hello I would like to implemnt a neighbourhood watch to keep this town safe from hooilgains and ruffians.",
+        article_type: "Vandals terrorise town nobel man sets up neighbourhood",
+        article_text: ".",
+        has_certificate: true,
+        is_stamped: true,
+        cert_sprite: spr_certificate_stamp_green_B,
+        is_forged: false,
+        dialogue_yes: "Alrighty then.",
+        dialogue_no: "Aw man.",
+        has_bribe: false,
+        bribe_amount: 0 
+    },
+    
+    {
+        name: "kid",
+        sprite: spr_kid, 
+        dialogue: "Hello I would like to implemnt a neighbourhood watch to keep this town safe from hooilgains and ruffians.",
+        article_type: "Vandals terrorise town nobel man sets up neighbourhood",
+        article_text: ".",
+        has_certificate: true,
+        is_stamped: true,
+        cert_sprite: spr_certificate_stamp_green_B,
+        is_forged: false,
+        dialogue_yes: "Alrighty then.",
+        dialogue_no: "Aw man.",
+        has_bribe: false,
+        bribe_amount: 0 
+    },
+    
+    {
+        name: "lepracon",
+        sprite: spr_lepracon, 
+        dialogue: "Hello I would like to implemnt a neighbourhood watch to keep this town safe from hooilgains and ruffians.",
+        article_type: "Vandals terrorise town nobel man sets up neighbourhood",
+        article_text: ".",
+        has_certificate: true,
+        is_stamped: true,
+        cert_sprite: spr_certificate_stamp_green_B,
+        is_forged: false,
+        dialogue_yes: "Alrighty then.",
+        dialogue_no: "Aw man.",
+        has_bribe: false,
+        bribe_amount: 0 
+    },
+    
 ];
 
 
