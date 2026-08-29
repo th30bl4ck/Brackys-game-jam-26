@@ -3,7 +3,7 @@
   "%Name":"Spr_text",
   "bboxMode":0,
   "bbox_bottom":45,
-  "bbox_left":6,
+  "bbox_left":7,
   "bbox_right":62,
   "bbox_top":9,
   "collisionKind":1,
