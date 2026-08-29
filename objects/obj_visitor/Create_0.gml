@@ -23,6 +23,7 @@ load_next_visitor = function() {
     is_stamped = my_data.is_stamped;
     cert_sprite = my_data.cert_sprite;
     is_forged = my_data.is_forged;
+    is_tutorial = my_data.is_tutorial;
     
     dialogue_yes = my_data.dialogue_yes;
     dialogue_no = my_data.dialogue_no;

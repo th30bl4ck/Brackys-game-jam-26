@@ -9,5 +9,9 @@ rules = [
     "",
     "3. No articles questioning the Mayor are permitted.",
     "",
-    "4. Do not accept bribes."
+    "4. Do not accept bribes.",
+    "",
+    "5. No soliciting public funds (donations/funding).",
+    "",
+    "6. No mention of drugs or narcotics."
 ];
