@@ -168,6 +168,22 @@ global.visitor_database = [
         bribe_amount: 0 
     },
     
+    {
+        name: "Guy",
+        sprite: spr_guy, 
+        dialogue: "Hey man I'm looking to sue this radio station they said is some person tattooed krud on there forehead they would get paid 250,000 smackaroo's but when I got to the station they just pointed and laughed at me.",
+        article_type: "radio scheme",
+        article_text: "UPDATE.",
+        has_certificate: true,
+        is_stamped: true,
+        cert_sprite: spr_certificate_stamp_green_B,
+        is_forged: false,
+        dialogue_yes: "Yeah lets sue these bastards .",
+        dialogue_no: "Man no one ever takes me seriously, is it the tattoo isn't it.",
+        has_bribe: false,
+        bribe_amount: 0 
+    },
+    
 ];
 
 
