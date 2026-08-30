@@ -135,6 +135,7 @@
     {"id":{"name":"spr_envelope","path":"sprites/spr_envelope/spr_envelope.yy",},},
     {"id":{"name":"spr_guy","path":"sprites/spr_guy/spr_guy.yy",},},
     {"id":{"name":"spr_hippy","path":"sprites/spr_hippy/spr_hippy.yy",},},
+    {"id":{"name":"Spr_hoodlem","path":"sprites/Spr_hoodlem/Spr_hoodlem.yy",},},
     {"id":{"name":"spr_hubert_billingsworth","path":"sprites/spr_hubert_billingsworth/spr_hubert_billingsworth.yy",},},
     {"id":{"name":"spr_Joe","path":"sprites/spr_Joe/spr_Joe.yy",},},
     {"id":{"name":"spr_judge","path":"sprites/spr_judge/spr_judge.yy",},},

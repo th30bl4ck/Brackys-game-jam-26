@@ -57,23 +57,35 @@ global.visitor_database = [
     {
         name: "Hubert Billingsworth",
         sprite: spr_hubert_billingsworth, 
-        dialogue: "Hey buddy, pal, freind-o. you've got to spread the good word of crypyo my guy...",
-        article_type: "money", article_text: "Cyrptocurrency market has boomed 1 schmitcoin being valued at £100 expedted to a thousandfold.",
-        has_certificate: false, is_stamped: false, cert_sprite: -1, is_forged: false,
-        dialogue_yes: "Nice my freind, i see you have a postive canfield tilt.", dialogue_no: "Sure bud miss out on the bigest of all bucks!, your ugly to by the way, I mog the hell out of you.",
-        has_bribe: false, bribe_amount: 0, is_tutorial: false,
-        karma_impact: -1 
+        dialogue: "Hey buddy, pal, freind-o. you've got to spread the good word of crypyo my guy. it reponsable for my incrdible wealth and a freind told me that people who do crypto are more likely to have more attrative faces y'know",
+        article_type: "money",
+        article_text: "Cyrptocurrency market has boomed 1 schmitcoin being valued at 100 dollars expedted to a thousandfold.",
+        has_certificate: false,
+        is_stamped: false,
+        cert_sprite: -1, 
+        is_forged: false,
+        dialogue_yes: "Nice my freind, i see you have a postive canfield tilt.",
+        dialogue_no: "Sure bud miss out on the bigest of all bucks!, your ugly to by the way, I mog the hell out of you.",
+        has_bribe: false,
+        bribe_amount:  0,
+        is_tutorial: false
     },
     
     {
         name: "Hippy",
         sprite: spr_hippy, 
-        dialogue: "Hey man I think this sick jam has gotta go straight to fron page man...",
-        article_type: "", article_text: "New experimental music album dropped by underground band JPEGwastakenagainstthemachinemafia, 100 songs and 3 hours long.",
-        has_certificate: false, is_stamped: false, cert_sprite: spr_certificate_stamp_gray_fake, is_forged: true,
-        dialogue_yes: "Wait what, really I never actually thought this would happen...", dialogue_no: "What the hell jackass, you think you're better than me, man hey screw you man.",
-        has_bribe: false, bribe_amount: 0, is_tutorial: false,
-        karma_impact: 1 
+        dialogue: "Hey man I think this sick jam has gotta go straight to fron page man, me and my indie psychedelic ethereal jazz rock fusion band put together this awesome piece, no pressure I just think we need more recognish y'know to get out there.",
+        article_type: "",
+        article_text: "New experimental music album dropped by underground band JPEGwastakenagainstthemachinemafia, 100 songs and 3 hours long.",
+        has_certificate: false,
+        is_stamped: false,
+        cert_sprite: spr_certificate_stamp_gray_fake,
+        is_forged: true,
+        dialogue_yes: "Wait what, really I never actually thought this would happen, wow man this has been a life long dream, thank you freind.",
+        dialogue_no: "What the hell jackass, you think you're better than me, man hey screw you man.",
+        has_bribe: false,
+        bribe_amount: 0,
+        is_tutorial: false        
     },
     
     {
