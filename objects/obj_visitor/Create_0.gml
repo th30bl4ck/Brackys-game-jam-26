@@ -13,6 +13,11 @@ leaving = false;
 article_text = ""; 
 
 load_next_visitor = function() {
+    
+    if (global.current_visitor_index >= array_length(global.visitor_database)) {
+        return; 
+    }
+    
     var my_data = global.visitor_database[global.current_visitor_index];
     
     sprite_index = my_data.sprite;
@@ -24,6 +29,7 @@ load_next_visitor = function() {
     cert_sprite = my_data.cert_sprite;
     is_forged = my_data.is_forged;
     is_tutorial = my_data.is_tutorial;
+    karma_impact = my_data.karma_impact;
     
     dialogue_yes = my_data.dialogue_yes;
     dialogue_no = my_data.dialogue_no;
@@ -33,13 +39,10 @@ load_next_visitor = function() {
         bribe_amount = my_data.bribe_amount;
     } 
     else {
-    bribe_amount = 0;
+        bribe_amount = 0;
     }
     
     global.current_visitor_index++;
-    if (global.current_visitor_index >= array_length(global.visitor_database)) {
-        global.current_visitor_index = 0;
-    }
 }
 
 load_next_visitor();

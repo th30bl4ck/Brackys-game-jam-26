@@ -26,6 +26,8 @@ if (instance_exists(obj_visitor) && obj_visitor.arrived && !obj_visitor.leaving)
         audio_play_sound(snd_click, 1, false);
         audio_play_sound(Snd_no, 1, false);
         
+        global.world_karma -= obj_visitor.karma_impact;
+        
         global.visitors_seen++;
         
         obj_visitor.leaving = true;
