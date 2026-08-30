@@ -3,6 +3,8 @@ depth = -300;
 ending_title = "";
 ending_desc = "";
 ending_number = "";
+ending_alpha = 0;
+ending_fade_speed = 0.025;
 
 if (global.wife_alive) {
     if (global.world_karma > 0) {
