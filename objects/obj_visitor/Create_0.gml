@@ -29,11 +29,10 @@ load_next_visitor = function() {
     cert_sprite = my_data.cert_sprite;
     is_forged = my_data.is_forged;
     is_tutorial = my_data.is_tutorial;
+    karma_impact = my_data.karma_impact;
     
     dialogue_yes = my_data.dialogue_yes;
     dialogue_no = my_data.dialogue_no;
-    
-    karma_impact = my_data.karma_impact;
     
     has_bribe = my_data.has_bribe;
     if (has_bribe) {
