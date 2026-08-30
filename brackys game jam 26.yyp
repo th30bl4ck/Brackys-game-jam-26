@@ -59,6 +59,7 @@
     {"id":{"name":"obj_cross","path":"objects/obj_cross/obj_cross.yy",},},
     {"id":{"name":"obj_dialogue","path":"objects/obj_dialogue/obj_dialogue.yy",},},
     {"id":{"name":"obj_end_of_day","path":"objects/obj_end_of_day/obj_end_of_day.yy",},},
+    {"id":{"name":"obj_ending_screen","path":"objects/obj_ending_screen/obj_ending_screen.yy",},},
     {"id":{"name":"obj_envelope","path":"objects/obj_envelope/obj_envelope.yy",},},
     {"id":{"name":"obj_music_hint","path":"objects/obj_music_hint/obj_music_hint.yy",},},
     {"id":{"name":"obj_music","path":"objects/obj_music/obj_music.yy",},},
