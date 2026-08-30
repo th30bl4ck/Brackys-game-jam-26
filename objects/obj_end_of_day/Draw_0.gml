@@ -27,15 +27,4 @@ if (!wife_bill_paid) {
 draw_set_color(make_color_rgb(0, 180, 0));
 draw_rectangle(button_x, button_y, button_x + button_w, button_y + button_h, false);
 draw_set_color(c_white);
-if (global.current_visitor_index >= array_length(global.visitor_database)) {
-    draw_text(button_x + (button_w / 2), button_y + (button_h / 2), "VIEW ENDING");
-} else {
-    draw_text(button_x + (button_w / 2), button_y + (button_h / 2), "START NEXT DAY");
-}
-
-if (ending_fade_active) {
-    draw_set_alpha(clamp(ending_fade_alpha, 0, 1));
-    draw_set_color(c_black);
-    draw_rectangle(0, 0, room_width, room_height, false);
-    draw_set_alpha(1);
-}
+draw_text(button_x + (button_w / 2), button_y + (button_h / 2), "START NEXT DAY");
