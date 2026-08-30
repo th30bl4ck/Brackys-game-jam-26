@@ -17,7 +17,13 @@ if (instance_exists(obj_visitor) && obj_visitor.arrived && !obj_visitor.leaving)
         global.daily_penalties += 3; 
     }
     
-    global.world_karma += obj_visitor.karma_impact;
+    if (!variable_global_exists("world_karma")) {
+        global.world_karma = 0;
+    }
+    
+    if (variable_instance_exists(obj_visitor, "karma_impact")) {
+        global.world_karma += obj_visitor.karma_impact;
+    }
     
     global.visitors_seen++;
     

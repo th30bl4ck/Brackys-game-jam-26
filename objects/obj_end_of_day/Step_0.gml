@@ -1,3 +1,14 @@
+if (ending_fade_active) {
+    ending_fade_alpha += ending_fade_speed;
+    
+    if (ending_fade_alpha >= 1) {
+        instance_create_depth(0, 0, -300, obj_ending_screen);
+        instance_destroy();
+    }
+    
+    exit;
+}
+
 if (mouse_check_button_pressed(mb_left)) {
     
     if (!wife_bill_paid && mouse_x >= pay_button_x && mouse_x <= pay_button_x + button_w && mouse_y >= pay_button_y && mouse_y <= pay_button_y + button_h) {
@@ -14,8 +25,7 @@ if (mouse_check_button_pressed(mb_left)) {
         }
         
         if (global.current_visitor_index >= array_length(global.visitor_database)) {
-            instance_create_depth(0, 0, -300, obj_ending_screen);
-            instance_destroy(); 
+            ending_fade_active = true;
         } else {
             global.visitors_seen = 0;
             global.daily_earnings = 0;
