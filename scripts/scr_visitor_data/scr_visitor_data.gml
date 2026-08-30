@@ -3,6 +3,8 @@ global.visitors_seen = 0;
 global.daily_earnings = 0;
 global.daily_penalties = 0;
 global.daily_bribes = 0;
+global.world_karma = 0;
+global.wife_alive = true;
 
 global.current_visitor_index = 0;
     
@@ -71,7 +73,7 @@ global.visitor_database = [
         has_certificate: false, is_stamped: false, cert_sprite: spr_certificate_stamp_gray_fake, is_forged: true,
         dialogue_yes: "Wait what, really I never actually thought this would happen...", dialogue_no: "What the hell jackass, you think you're better than me, man hey screw you man.",
         has_bribe: false, bribe_amount: 0, is_tutorial: false,
-        karma_impact: 1
+        karma_impact: 1 
     },
     
     {
@@ -93,7 +95,7 @@ global.visitor_database = [
         has_certificate: true, is_stamped: true, cert_sprite: spr_certificate_stamp_green_B, is_forged: false,
         dialogue_yes: "Thank you this helps the world a lot .", dialogue_no: "thats fine, I get it this is a moral conundrum.",
         has_bribe: false, bribe_amount: 0, is_tutorial: false,
-        karma_impact: -2 
+        karma_impact: -2
     },
     
     {
@@ -104,7 +106,7 @@ global.visitor_database = [
         has_certificate: true, is_stamped: true, cert_sprite: spr_certificate_stamp_blue_B, is_forged: false,
         dialogue_yes: "Yo sick, lets expose this Nazi fuckwad.", dialogue_no: "Fucks wrong with you man I thought you cared about the cause.",
         has_bribe: false, bribe_amount: 0, is_tutorial: false,
-        karma_impact: 3
+        karma_impact: 3 
     },
     
     {
@@ -184,4 +186,3 @@ global.visitor_database = [
         karma_impact: 1
     }
 ];
-
